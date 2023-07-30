@@ -1,19 +1,22 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Rony in Vue Js "/>
-  <HomeComponent/>
+  <!-- <HomeComponent/> -->
+  <InterpolationAndData/>
 
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-import HomeComponent from './components/Home.vue'
+// import HomeComponent from './components/Home.vue'
+import InterpolationAndData from './components/Interpolation.vue'
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    HomeComponent,
+    // HomeComponent,
+    InterpolationAndData
   }
 }
 </script>
